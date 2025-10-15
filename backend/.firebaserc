@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "housemate-1",
+    "prod": "housemate-1"
+  },
+  "targets": {},
+  "etags": {}
+}
