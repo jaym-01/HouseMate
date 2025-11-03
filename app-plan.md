@@ -22,11 +22,11 @@ A household management app for splitting rent, bills, and shopping responsibilit
 
 #### Tasks:
 
-- [ ] **1.1** Configure Firebase initialization and environment variables
-- [ ] **1.2** Implement Firebase Auth integration
-  - [ ] Email/password authentication
-  - [ ] Password reset functionality
-  - [ ] Email verification
+- [x] **1.1** Configure Firebase initialization and environment variables
+- [x] **1.2** Implement Firebase Auth integration
+  - [x] Email/password authentication
+  - [x] Password reset functionality
+  - [x] Email verification
 - [ ] **1.3** Create user registration flow
   - [ ] Input validation (email, password strength)
   - [ ] Error handling and user feedback
@@ -415,13 +415,13 @@ settlements/
 ## Development Notes
 
 **Current Phase**: Phase 1 - Foundation & Authentication
-**Last Updated**: [Date]
-**Completed Tasks**: 0/XX
+**Last Updated**: November 3, 2025
+**Completed Tasks**: 2/XX
 
 ### Progress Tracking
 
 - Total tasks defined: ~100+
-- Completed: 0
+- Completed: 2
 - In Progress: 0
 - Blocked: 0
 
@@ -429,11 +429,41 @@ settlements/
 
 - None currently
 
+### Recent Completions
+
+**Task 1.1 - Firebase Configuration (Nov 3, 2025)**:
+
+- ✅ Installed Firebase SDK (firebase package)
+- ✅ Created environment variable structure (.env, .env.example)
+- ✅ Built Firebase configuration module (config/firebase.config.ts)
+- ✅ Implemented Firebase initialization with emulator support
+- ✅ Created useFirebaseInit hook for app initialization
+- ✅ Updated root layout to initialize Firebase on app start
+- ✅ Added comprehensive documentation (config/README.md)
+- ✅ Configured .gitignore to protect sensitive data
+
+**Task 1.2 - Firebase Auth Integration (Nov 3, 2025)**:
+
+- ✅ Created auth type definitions (services/auth.types.ts)
+- ✅ Built comprehensive auth service (services/auth.service.ts)
+  - Email/password registration with validation
+  - Login functionality
+  - Password reset via email
+  - Email verification (send & resend)
+  - Profile updates (name, photo, email, password)
+  - Reauthentication for sensitive operations
+- ✅ Implemented password strength validation (8+ chars, upper, lower, number)
+- ✅ Created user-friendly error handling and messages
+- ✅ Built useAuth hook for real-time auth state management
+- ✅ Added comprehensive documentation (services/README.md)
+
 ### Next Steps
 
-1. Begin Phase 1: Configure Firebase and implement authentication
-2. Test auth flows thoroughly before moving to Phase 2
-3. Set up basic navigation structure
+1. ✅ Task 1.1 Complete: Firebase initialization configured
+2. ✅ Task 1.2 Complete: Firebase Auth integration implemented
+3. **NEXT**: Task 1.3 - Create user registration flow UI
+4. Build login screen UI (Task 1.4)
+5. Implement protected route navigation
 
 ---
 
